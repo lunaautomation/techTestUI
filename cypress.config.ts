@@ -23,6 +23,7 @@ async function setupNodeEvents(
 
 export default defineConfig({
   e2e: {
+    baseUrl: "https://google.com",
     specPattern: "**/*.feature",
     setupNodeEvents,
   },
